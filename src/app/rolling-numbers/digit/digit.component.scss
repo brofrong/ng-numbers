@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  position: relative;
+  height: 1em;
+  overflow: hidden;
+
+
+  .digits {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0);
+    text-align: center;
+
+    transition: transform 250ms ease-in-out;
+
+    .digit {
+      height: 1em;
+    }
+
+    &.offset-1 {
+      transform: translateY(-1em);
+    }
+
+    &.offset-2 {
+      transform: translateY(-2em);
+    }
+
+    &.offset-3 {
+      transform: translateY(-3em);
+    }
+
+    &.offset-4 {
+      transform: translateY(-4em);
+    }
+
+    &.offset-5 {
+      transform: translateY(-5em);
+    }
+
+    &.offset-6 {
+      transform: translateY(-6em);
+    }
+
+    &.offset-7 {
+      transform: translateY(-7em);
+    }
+
+    &.offset-8 {
+      transform: translateY(-8em);
+    }
+
+    &.offset-9 {
+      transform: translateY(-9em);
+    }
+
+  }
+
+}

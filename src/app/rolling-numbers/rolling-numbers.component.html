@@ -1,0 +1,3 @@
+<div *ngIf="digits.length" class="flex">
+  <app-digit [digit]="digit" *ngFor="let digit of digits; index as i; trackBy: trackByFn" style="font-size: 40px"></app-digit>
+</div>

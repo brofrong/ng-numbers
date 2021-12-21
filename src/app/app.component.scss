@@ -1,0 +1,23 @@
+.main-wrap {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+
+  border-radius: 16px;
+
+  box-shadow: 0 3px 10px rgba(35, 36, 52, 0.2);
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: rgb(102, 103, 171);
+  border: none;
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+
+  &:active {
+    background-color: rgb(128, 130, 245);
+  }
+}
